@@ -9,8 +9,8 @@ class Program
         List<Member> members = new List<Member>();
 
         // Create and add new Book objects to the list
-        books.Add(new Book { Title = "C# for beginners", Author = "Bill Gates", ISBN = "1234567" });
-        books.Add(new Book { Title = "Ultimate C#", Author = "Microsoft", ISBN = "2233445" });
+        books.Add(new Book ("C# for beginners", "Bill Gates", "1234567"));
+        books.Add(new Book ("Ultimate C#", "Microsoft", "2233445"));
 
         members.Add(new Member(1, "John Smith", "1 High Street", 0790090090));
         members.Add(new Member(2, "Mary Jones", "102 Garden Road", 0790345666));
